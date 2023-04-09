@@ -18,11 +18,11 @@ function UserTable() {
         <table>
             <thead>
                 <tr>
-                    <td>ID</td>
-                    <td>Name</td>
-                    <td>Email</td>
-                    <td>Phone</td>
-                    <td>Website</td>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Website</th>
 
                 </tr>
             </thead>
