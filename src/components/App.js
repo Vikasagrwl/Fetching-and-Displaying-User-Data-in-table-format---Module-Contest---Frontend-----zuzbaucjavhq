@@ -4,7 +4,7 @@ import UserTable from "./UserTable";
 const App = () => {
 	return (
 		<div id="main">
-			<UserTable />;
+			<UserTable />
 		</div>
 	);
 };
