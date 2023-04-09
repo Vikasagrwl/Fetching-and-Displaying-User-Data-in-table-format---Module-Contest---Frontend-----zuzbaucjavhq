@@ -6,9 +6,10 @@ function UserTable() {
         const getApiData = async () => {
             const response = await fetch(
               "https://jsonplaceholder.typicode.com/users"
-            ).then((response) => response.json());
+            ).then((response) => response.json()    
+            );
+            setUsers(response.sort((a,b)=>a.id-b.id));
           
-            setUsers(response);
           };
           getApiData();
     },[]);
